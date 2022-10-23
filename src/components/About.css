@@ -1,0 +1,45 @@
+.tabelaDeInfosPessoais td {
+    text-align: left;
+}
+
+.tabelaDeInfosPessoais .infoResume {
+    padding-bottom: 1rem;
+}
+
+.tabelaDeInfosPessoais .infoLabel {
+    font-weight: bold;
+}
+
+.skills {
+    display: inherit;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills .skillsCard {
+    width: 18vw;
+}
+
+.skills .skillsCardMobile {
+    margin: 0.5rem 0;
+    width: 70vw;
+}
+
+.experience {
+    display: inherit;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.experienceCard {
+    width: 50%;
+}
+
+.experienceCardMobile {
+    width: 90%;
+}
+
+.MuiTimelineItem-root::before {
+    content: none !important;
+}

@@ -1,0 +1,32 @@
+.Profile {
+    margin: 1em 0em;
+}
+
+.picture {
+    max-width: 10vw;
+    max-height: 15vh;
+    border-radius: 5rem;
+    border: 0.4em solid var(--dark-blue);
+    margin: 1em;
+}
+
+.mobile .picture {
+    max-width: 25vw;
+}
+
+.name {
+    font-weight: bold;
+    font-size: larger;   
+}
+
+.other-info {
+    font-style: italic;
+    padding: 0.2rem;
+}
+
+.separator {
+    border: none;
+    height: 0.2em;
+    color: var(--dark-blue);
+    background-color: var(--dark-blue);
+}

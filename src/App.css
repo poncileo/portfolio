@@ -1,5 +1,45 @@
+/* :root {
+  --font-color: #b6b69b;
+  --darker-red: #470d0d;
+  --dark-red: #4b1717;
+  --light-blue: #38545a;
+  --dark-blue: #2b3f49;
+} */
+
+/* :root {
+  --darker-green: #333d29;
+  --dark-green: #414833;
+  --green: #656d4a;
+  --light-green: #a4ac86;
+  --lighter-green: #c2c5aa;
+  --lighter-brown: #b6ad90;
+  --light-brown: #a68a64;
+  --brown: #936639;
+  --dark-brown: #7f4f24;
+  --darker-brown: #582f0e;
+  --font-color: var(--lighter-brown);
+} */
+
+:root {
+  --darker-blue: #000814;
+  --dark-blue: #001D3D;
+  --blue: #003566;
+  --dark-yellow: #FFC300;
+  --yellow: #FFD60A;
+  --font-color: #ebebeb;
+}
+
+#root {
+  background-image: url("./images/winter.png");
+  background-position: center;
+  background-size: cover;
+}
+
 .App {
+  display: flex;
   text-align: center;
+  width: 100%;
+  height: 100%;  
 }
 
 .App-logo {
@@ -35,4 +75,51 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  /* background-color: white; */
+}
+
+.containerMobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85vw;
+  margin-left: 18vw;
+}
+
+.container .home, .containerMobile .home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem 10rem;
+}
+
+.contentMobile {
+  margin: 0;
+}
+
+.pageTitle {
+  text-align: left;
+}
+
+.pageContentHorizontal {
+  display: inherit;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pageContentVertical {
+  display: inherit;
+  flex-direction: column;
 }
