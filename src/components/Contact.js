@@ -15,8 +15,6 @@ function Contact(props) {
     const templateID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID
     const userID = process.env.REACT_APP_EMAILJS_USER_ID
 
-    console.log(serviceID, templateID, userID)
-
     const sendMail = (e) => {
         e.preventDefault();
 
